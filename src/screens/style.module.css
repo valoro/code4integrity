@@ -1,0 +1,288 @@
+.header {
+  width: 100%;
+  background-color: #343a40;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-right: 20px; */
+}
+.header h1 {
+  margin: 0%;
+  padding: 0%;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+}
+.header h2 {
+  margin: 0%;
+  padding: 0%;
+  color: #9a9da0;
+  font-size: 18px;
+  cursor: pointer;
+}
+.input {
+  padding: 12px;
+  border-radius: 7px;
+  color: #c7cdd1;
+  font-size: 16px;
+  margin-right: 100px;
+}
+.buttonLogin {
+  background-color: #6c757d;
+  padding: 13px;
+  width: 7%;
+  border-radius: 7px;
+  border: solid;
+  border-width: 0ch;
+  color: #fff;
+}
+.buttonRegister {
+  background-color: #007bff;
+  padding: 13px;
+  width: 7%;
+  border-radius: 7px;
+  border: solid;
+  border-width: 0ch;
+  color: #fff;
+  margin-left: -25px;
+  margin-right: 20px;
+}
+.title {
+  background-color: #f37b33;
+  width: 100%;
+}
+.title h1 {
+  margin: 0ch;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 10px;
+  font-size: 19px;
+}
+.dis {
+  padding-left: 60px;
+  /* margin-left: 20px; */
+  background-color: #e9ecef;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.dis h1 {
+  margin: 0ch;
+  /* margin-left: 50px; */
+  color: #212529;
+  font-weight: 400;
+  /* letter-spacing: 3px; */
+  font-size: 40px;
+  word-spacing: 3px;
+}
+.dis h2 {
+  margin: 0ch;
+  /* margin-left: 50px; */
+  margin-block: 15px;
+  color: #212555;
+  font-weight: 400;
+  font-size: 20px;
+}
+.buttonFile {
+  background-color: #007bff;
+  border: solid;
+  border-width: 0ch;
+  padding: 10px;
+  border-radius: 7px;
+  padding-inline: 20px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.buttonView {
+  background-color: #fff;
+  border: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 7px;
+  padding-inline: 20px;
+  color: #007bff;
+  margin-left: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.continerReport {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+.buttonFileReport {
+  background-color: #6c757d;
+  border: solid;
+  border-width: 0ch;
+  padding: 10px;
+  border-radius: 7px;
+  padding-inline: 20px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+.continerReport h1 {
+  margin: 0px;
+  font-weight: 600;
+}
+.continerReport h2 {
+  margin: 0ch;
+  font-size: 17px;
+  font-weight: 400;
+  margin-block: 10px;
+}
+.continerReport div {
+  width: 30%;
+}
+.searchAddress {
+  width: 85%;
+  /* background-color: red; */
+  border: solid;
+  border-width: 0ch;
+  border-top-width: 0.1px;
+  border-bottom-width: 0.1px;
+  margin-inline: 100px;
+  margin-top: 40px;
+  border-color: #8b9196;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 100px; */
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.inputSearch {
+  display: flex;
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  border-color: #9a9da0;
+  width: 40%;
+}
+.inputSearch input {
+  height: 30px;
+  align-items: center;
+  border: solid;
+  border-width: 0ch;
+  width: 90%;
+}
+.inputSearch h1 {
+  margin: 0ch;
+  font-size: 15px;
+  padding: 0ch;
+  text-align: center;
+  padding-inline: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.inputSearch div {
+  border: solid;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-width: 0px;
+  border-left-width: 1px;
+  cursor: pointer;
+}
+.work {
+  width: 100%;
+  /* background-color: red; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 100px; */
+}
+.work h1 {
+  color: #252756;
+  font-size: 40px;
+  font-weight: 700;
+}
+.doesWork {
+  background-color: #242759;
+  width: 85%;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 16px;
+}
+.continerWork {
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-block: 80px;
+  /* padding-bottom: 150px; */
+  /* background-color: red; */
+  /* height: 300px; */
+}
+.continerWork h1 {
+  color: #c7cdd1;
+  font-size: 18px;
+  margin-top: 40px;
+  text-align: center;
+}
+.Contact {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Contact h1 {
+  color: #252756;
+  font-weight: 800;
+  font-size: 35px;
+}
+.Contact h2 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  /* word-spacing: 6px; */
+}
+.footer {
+  background-color: #e6e8ef;
+  padding-block: 100px;
+}
+.footer h1 {
+  margin: 0ch;
+  margin-left: 80px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #302759;
+}
+.Bitcoin {
+  width: 100%;
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 60px;
+}
+.Bitcoin h1 {
+  margin: 0ch;
+  font-size: 55px;
+  font-weight: 300;
+  word-spacing: 3px;
+}
+.Bitcoin h2 {
+  margin: 0ch;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.table {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  margin-block: 20px;
+}
